@@ -3,7 +3,10 @@
 function Form(){
     return(
         <div className="col-4">
-        <form id="formulario-de-cadastro">
+        <div className="row">
+            <h1>Cadastro de Contatos</h1>
+        </div>
+        <form id="formulario-de-cadastro" className="m-3">
                         <div className="mb-3">
                             <label htmlFor="nome" className="form-label">Nome</label>
                             <div className="input-group">

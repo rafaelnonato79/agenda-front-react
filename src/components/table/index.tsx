@@ -1,10 +1,10 @@
 function Table(){
     return(
-        <div className="col-8">
-        <div className="row">
+        <div>
+        <div className="d-flex justify-content-lg-center">
             <h1>Lista de Contatos</h1>
         </div>
-        <table className="m-3 table table-striped table-hover">
+        <table id="lista-de-contatos" className="table table-striped table-hover">
             <thead>
                 <tr>
                     <th>Nome</th>
